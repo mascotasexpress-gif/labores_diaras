@@ -1,0 +1,24 @@
+{
+  "name": "mascotas-express-sistema",
+  "version": "1.0.0",
+  "description": "Sistema clínico integral para Mascotas Express — Gestión de protocolos, KPIs, pacientes y evaluaciones",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "veterinaria",
+    "clínica",
+    "sistema",
+    "kpi",
+    "protocolos",
+    "mascotas"
+  ],
+  "author": "Mascotas Express",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mascotasexpress-gifFile/mascotas-express-sistema"
+  }
+}

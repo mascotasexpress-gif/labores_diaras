@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  command = "echo 'No build needed for static site'"
+
+[dev]
+  command = "python -m SimpleHTTPServer 8000"
+  port = 8000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
